@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LexAI – Plataforma Legal</title>
+    <meta name="description" content="Plataforma jurídica con IA para gestión de casos, clientes y documentos legales." />
+    <meta name="author" content="LexAI" />
+    <meta property="og:title" content="LexAI – Plataforma Legal" />
+    <meta property="og:description" content="Plataforma jurídica con IA para gestión de casos, clientes y documentos." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Prevent theme flicker on reload -->
+    <script>
+      (function () {
+        var t = localStorage.getItem("lexai-theme") || "dark";
+        document.documentElement.setAttribute("data-theme", t);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
